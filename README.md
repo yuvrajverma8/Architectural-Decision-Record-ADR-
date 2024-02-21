@@ -8,8 +8,8 @@ The Project X development team must choose the right technology stack before beg
 Decision:
 The following technological stack has been chosen following thorough evaluation and team discussion:
 
-Type of Application: Hybrid Mobile Application
-UI Framework: React Native
+# Type of Application: Hybrid Mobile Application
+# UI Framework: React Native
 Backend Language: Node.js
 Permissions: Role-based Access Control (RBAC)
 Data Storage: MongoDB
