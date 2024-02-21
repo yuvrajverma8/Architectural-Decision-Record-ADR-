@@ -46,3 +46,12 @@ Extra Frameworks and Technological Stacks
 - Express.js: Express.js is a lightweight and simple framework that is ideal for developing RESTful APIs. It works well with Node.js to enable the creation of scalable backend services.
 
 - JSON Web Tokens (JWT): JWT offers a safe and stateless authentication solution that improves the application's overall security posture without requiring sessions.
+
+
+# CONSEQUENCES: 
+- The development team may hasten Project X delivery while preserving a consistent user experience across platforms by choosing a hybrid mobile application architecture. For compute-intensive jobs, trade-offs could include possible performance limits in comparison to native apps.
+- Team members who are not familiar with React Native may need to go through a learning curve due to its component-based architecture. However, the advantages in terms of developer productivity and code reuse outweigh this one-time cost.
+- Due to Node.js's single threading, CPU-intensive operations may need to be handled carefully to prevent stalling the event loop, which may require performance adjustments as the application grows.
+- Although RBAC makes permission management easier, it still needs to be carefully planned and configured to guarantee appropriate access control. It can be required to do regular evaluations and changes in order to adjust to changing security standards.
+- Because of the trade-offs between data consistency and transaction support, MongoDB's flexibility in data modelling necessitates careful consideration of application requirements and data access patterns.
+- The application's security and scalability are improved by utilising Express.js and JWT, however doing so necessitates following best practices to reduce typical vulnerabilities like CSRF and XSS attacks.
